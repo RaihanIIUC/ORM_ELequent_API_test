@@ -55,3 +55,41 @@ class Item extends Model
         return $this->hasMany(MasterFile::class,'item_id','id');
     }
 }```
+
+
+``` 
+class Location extends Model
+{
+    use HasFactory;
+
+    protected $guarded = [];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class,'added_by','id');
+    } 
+}
+```
+``` 
+class Product extends Model
+{
+     
+
+    use HasFactory;
+    protected $guarded = [];
+
+
+    public function category(){
+        return $this->hasOne(Category::class);
+    }
+    public function subcategory(){
+        return $this->hasOne(SubCategory::class,'parent_id','id');
+    }
+  
+}
+
+```
+
+
+
+
