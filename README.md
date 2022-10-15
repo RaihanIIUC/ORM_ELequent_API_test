@@ -20,6 +20,6 @@
 
 
 * Run 
-   *  ``` php artisan migrate ```
    * ```composer require doctrine/dbal ```
+   *  ``` php artisan migrate ```
    * ``` php artisan db:seed ```
