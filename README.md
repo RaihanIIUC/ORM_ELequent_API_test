@@ -25,5 +25,5 @@
    * ``` php artisan db:seed ```
 
 
-## Here is the API documentation 
+## Here is the API documentation (Postman ) 
 https://documenter.getpostman.com/view/12972403/2s847BSFHH
