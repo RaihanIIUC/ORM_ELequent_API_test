@@ -91,6 +91,31 @@ class Product extends Model
 }
 ```
 
+```
+class Category extends Model
+{
+    use HasFactory;
+    protected $guarded = [];
 
+
+    public function product(){
+        return  $this->belongsTo(Product::class);
+    }
+}
+```
+
+```
+class MasterFile extends Model
+{
+    use HasFactory;
+
+    protected $guarded = [];
+
+
+    public function file(){
+        return $this->hasOne(SlaveFile::class,'master_file_id','id');
+    }
+}
+```
 
 
