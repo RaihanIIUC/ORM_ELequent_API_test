@@ -7,7 +7,7 @@
 
    * ```Composer install```
    * ``` php artisan serve --port=8006```
-   *   create a database in  in database named ```demo```
+   *   create a database in database named ```demo```
    * ```cp .env.example .env```
    * replace this in .env file with same text
    ```
