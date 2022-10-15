@@ -6,7 +6,7 @@
 * Run Those Command
 
    * ```Composer install```
-   * ``` php artisan serve --port=8006```
+   * ``` php artisan serve --port=8000```
    *   create a database in database named ```demo```
    * ```cp .env.example .env```
    * replace this in .env file with same text
