@@ -23,3 +23,7 @@
    * ```composer require doctrine/dbal ```
    *  ``` php artisan migrate ```
    * ``` php artisan db:seed ```
+
+
+## Here is the API documentation 
+https://documenter.getpostman.com/view/12972403/2s847BSFHH
