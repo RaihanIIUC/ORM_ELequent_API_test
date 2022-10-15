@@ -57,8 +57,7 @@ class Item extends Model
 }```
 
 
-``` 
-class Location extends Model
+``` class Location extends Model
 {
     use HasFactory;
 
@@ -68,10 +67,9 @@ class Location extends Model
     {
         return $this->belongsTo(User::class,'added_by','id');
     } 
-}
-```
-``` 
-class Product extends Model
+}```
+
+``` class Product extends Model
 {
      
 
@@ -86,9 +84,7 @@ class Product extends Model
         return $this->hasOne(SubCategory::class,'parent_id','id');
     }
   
-}
-
-```
+}```
 
 
 
